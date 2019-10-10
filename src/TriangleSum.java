@@ -10,12 +10,11 @@ public class TriangleSum {
         int number = 1;
         int sum = 0;
         int sumOneLine = 0;
-        for (int x = 1; x <= line; x++) {
-            for (int j = 0; j < x; j++) {
+        for (int i = 1; i <= line; i++) {
+            for (int j = 0; j < i; j++) {
                 System.out.printf("%4d", number);
                 sum += number;
                 sumOneLine = sum;
-
                 number += 2;
 
             }
